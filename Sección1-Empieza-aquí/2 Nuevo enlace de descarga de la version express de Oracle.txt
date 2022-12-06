@@ -1,0 +1,11 @@
+Nuevo enlace de descarga de la versión express de Oracle
+Nota:
+En la siguiente clase instalaremos la base de datos, pero parece que ahora el enlace que les facilitó en el siguiente video sólo los lleva a la instalación de linux.
+
+Pueden usar este enlace para descarga la versión de windows y linux también.
+
+
+
+Oracle Express - Windows y Linux
+
+https://www.oracle.com/database/

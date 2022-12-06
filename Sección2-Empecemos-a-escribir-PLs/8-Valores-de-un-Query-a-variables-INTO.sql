@@ -1,0 +1,22 @@
+set serveroutput on;
+
+DECLARE
+    
+    cantidad number;
+    usuario nvarchar2(100);
+    
+BEGIN
+
+/* 
+    select user INTO usuario from dual;
+    dbms_output.put_line('Usuario: ' || usuario);
+    
+    select count(*) INTO cantidad from dual;
+    dbms_output.put_line('Cantidad: ' || cantidad);
+    */
+    
+     select user, count(*) INTO usuario, cantidad from dual;
+    dbms_output.put_line('Usuario: ' || usuario);
+    dbms_output.put_line('Cantidad: ' || cantidad);
+END;
+/

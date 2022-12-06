@@ -1,0 +1,28 @@
+
+DECLARE
+    nombre NVARCHAR2(100):= 'Hernan MORE  ';
+
+BEGIN
+
+    -- Funciones con Textos
+    dbms_output.put_line('Largo: ' || LENGTH(nombre));
+    
+    dbms_output.put_line('Trim: ' || trim(nombre) ||';');
+    
+    dbms_output.put_line('Minuscula: ' || LOWER(nombre));
+    
+    dbms_output.put_line('Mayuscula: ' || UPPER(nombre));
+    
+    nombre:= trim(nombre);
+    
+    dbms_output.put_line('Cortar: ' || substr(nombre,1,3));
+    
+    dbms_output.put_line('Reemplazo: ' || replace(nombre,'H','F'));
+    
+    --Funcion de fecha
+    dbms_output.put_line(hoy);    
+    
+    --dbms_output.put_line('Agregar mes: ' || add_months(hoy,1));
+    
+END;
+/

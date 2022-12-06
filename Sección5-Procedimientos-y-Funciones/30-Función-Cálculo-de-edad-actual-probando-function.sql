@@ -1,0 +1,2 @@
+SELECT fechanaci, EDAD_ACTUAL(fechanaci), SYSDATE FROM EMPLEADOS
+WHERE EDAD_ACTUAL(fechanaci) >= 35;

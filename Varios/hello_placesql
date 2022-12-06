@@ -1,0 +1,8 @@
+CREATE OR REPLACE PROCEDURE 
+hello_place (place_in IN VARCHAR2)
+IS
+  l_message  VARCHAR2 (100);
+BEGIN
+  l_message  := 'Hello ' || place_in;
+  DBMS_OUTPUT.put_line (l_message);
+END hello_place;

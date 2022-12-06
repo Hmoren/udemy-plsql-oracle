@@ -1,0 +1,8 @@
+BEGIN
+   hello_world;
+END;
+
+BEGIN
+   hello_place ('World');
+   hello_place ('Universe');
+END;

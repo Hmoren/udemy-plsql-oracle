@@ -1,0 +1,8 @@
+CREATE OR REPLACE PROCEDURE 
+hello_world
+IS
+  l_message
+  VARCHAR2 (100) := 'Hello World!';
+BEGIN
+  DBMS_OUTPUT.put_line (l_message);
+END hello_world;
